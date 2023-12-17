@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: darkslategrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+}
+.keyboard {
+  padding:60px 20px;
+  width: 80%;
+  height: 400px;
+  background-color: dimgrey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.part1,
+.part2,
+.part3 {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+}
+.part1 {
+  width: 90%;
+}
+.part2 {
+  width: 80%;
+}
+.part3 {
+  width: 70%;
+}
+p {
+  height: 60px;
+  width: 60px;
+  background-color: rgb(160, 170, 167);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  box-shadow: 5px 5px 5px 1px black;
+}
+.Feshar {
+  color: yellow;
+  box-shadow: -5px -5px 5px 1px gray;
+}
